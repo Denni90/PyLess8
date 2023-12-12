@@ -147,7 +147,7 @@ def main():
             if not exists(del_file):
                 print("Файл отсутствует")
                 continue
-            obj_lst = read_file(del_file) # открываем файл для чтения
+            obj_lst = read_file(del_file)
             print(obj_lst)
             try:
                 num_row = int(input('Ведите номер удаляемой строки: '))
